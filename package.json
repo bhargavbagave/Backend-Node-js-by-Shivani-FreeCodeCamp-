@@ -1,0 +1,30 @@
+{
+  "name": "backend-node-js-by-shivani-freecodecamp-",
+  "version": "1.0.0",
+  "description": "Learning Node js",
+  "homepage": "https://github.com/bhargavbagave/Backend-Node-js-by-Shivani-FreeCodeCamp-#readme",
+  "bugs": {
+    "url": "https://github.com/bhargavbagave/Backend-Node-js-by-Shivani-FreeCodeCamp-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhargavbagave/Backend-Node-js-by-Shivani-FreeCodeCamp-.git"
+  },
+  "license": "ISC",
+  "author": "Bhargav",
+  "type": "module",
+  "main": "Backend/src/index.js",
+  "scripts": {
+    "start": "node Backend/src/index.js",
+    "dev": "nodemon Backend/src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.0",
+    "moongoose": "^0.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
